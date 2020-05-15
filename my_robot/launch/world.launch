@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <!-- Override Turtle World -->
+  <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch">
+    <arg name="world_file" value="$(find my_robot)/worlds/home.world"/>
+  </include>
+</launch>
